@@ -607,6 +607,7 @@ sylius:
         show_header: Shipping method details
         update_header: Editing shipping method
         updated_at: Last update
+        undefined_category: undefined
         zone: Zone
     shop_by: Shop by
     show: details

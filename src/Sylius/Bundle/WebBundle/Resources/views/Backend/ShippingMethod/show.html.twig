@@ -36,7 +36,7 @@
         <tr>
             <td>{{ shipping_method.name }}</td>
             <td>{{ shipping_method.zone }}</td>
-            <td>{{ shipping_method.category|default('<i>undefined</i>')|raw }}</td>
+            <td>{{ shipping_method.category|default('<i>'~'sylius.shipping_method.undefined_category'|trans ~'</i>')|raw }}</td>
             <td>
                 <span class="label label-{{ shipping_method.enabled ? 'success' : 'important'}}">
                     {{ shipping_method.enabled ? 'sylius.yes'|trans : 'sylius.no'|trans }}

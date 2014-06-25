@@ -588,6 +588,7 @@ sylius:
     show_header: Детали способа доставки
     update_header: Редактировать способ доставки
     updated_at: Последнее обновление
+    undefined_category: Категория не задана
     zone: Зона
   shop_by: Каталог товаров
   show: детали

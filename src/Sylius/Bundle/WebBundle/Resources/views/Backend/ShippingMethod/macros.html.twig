@@ -23,7 +23,7 @@
             <td>{{ shipping_method.id }}</td>
             <td>{{ shipping_method.name }}</td>
             <td>{{ shipping_method.zone }}</td>
-            <td>{{ shipping_method.category|default('<em>undefined</em>')|raw }}</td>
+            <td>{{ shipping_method.category|default('<em>'~'sylius.shipping_method.undefined_category'|trans ~'</em>')|raw }}</td>
             <td>
                 {{ misc.state_label(shipping_method.enabled) }}
             </td>
